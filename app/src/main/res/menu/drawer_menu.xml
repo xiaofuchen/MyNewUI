@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_home"
+            android:icon="@mipmap/gitar"
+            android:title="黄家驹"/>
+        <item
+            android:id="@+id/drawer_favourite"
+            android:icon="@mipmap/gitar"
+            android:title="黄贯中"/>
+        <item
+            android:id="@+id/drawer_settings"
+            android:icon="@mipmap/gitar"
+            android:title="叶世荣"/>
+        <item
+            android:id="@+id/drawer_settings1"
+            android:icon="@mipmap/gitar"
+            android:title="黄家强"/>
+        <!-- 为 Item 添加子菜单，实现分组 -->
+        <item
+            android:id="@+id/section"
+            android:icon="@mipmap/gitar"
+            android:title="离任">
+            <menu>
+                <group
+                    android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/drawer_downloaded"
+                        android:icon="@mipmap/gitar"
+                        android:title="刘志远"/>
+                    <item
+                        android:id="@+id/drawer_more"
+                        android:icon="@mipmap/gitar"
+                        android:title="李时安"/>
+                    <item
+                        android:id="@+id/drawer_more1"
+                        android:icon="@mipmap/gitar"
+                        android:title="李荣潮"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>
