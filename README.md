@@ -18,6 +18,7 @@
 - **CardView---卡片式布局**
 - **AppCompatButton---Button升级版**
 - **ripple标签---波纹式点击效果**
+- **Palette---图片取色器**
 
 -------------------
 
